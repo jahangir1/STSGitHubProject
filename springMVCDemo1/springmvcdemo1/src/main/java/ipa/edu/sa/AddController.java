@@ -14,10 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class AddController {
 	
 	@RequestMapping("/add")
-	public void add() {
-		System.out.print("I am here:::");
-		
-		
+	public String add() {
+		return "display";	
 		
 	}
 
