@@ -11,5 +11,5 @@
 						   http://www.springframework.org/schema/context/spring-context-2.5.xsd">
 						   
 <ctx:annotation-config></ctx:annotation-config>
-<ctx:component-scan base-package="ipa.edu.sa"></ctx:component-scan>
+<ctx:component-scan base-package="ipa.edu.sa.AddController"></ctx:component-scan>
 </beans>
